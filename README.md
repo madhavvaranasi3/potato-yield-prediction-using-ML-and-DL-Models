@@ -5,15 +5,16 @@ Accurate crop yield forecasting enables better agricultural decision-making and 
 
 ---
 
-**Project Structure**
-
+## Project Structure
+```
 tih_internship_project/
 ├── datasets/
-│ ├── merged_potato_reservoir.csv             # Raw dataset
-│ └── potato_reservior_cleaned_dataset.csv    # Cleaned dataset
-├── potato_yield_prediction.ipynb             # Full ML workflow
+│   ├── merged_potato_reservoir.csv                 # Raw dataset
+│   └── potato_reservior_cleaned_dataset.csv        # Cleaned dataset
+├── potato_yield_prediction.ipynb                   # Full ML workflow
 ├── requirements.txt
 └── .gitignore
+```
 
 ---
 
