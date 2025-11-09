@@ -7,12 +7,13 @@ Accurate crop yield forecasting enables better agricultural decision-making and 
 
 ## Project Structure
 ```
-tih_internship_project/
+potato-yield-prediction-using-ML-and-DL-Models/
 ├── datasets/
 │   ├── merged_potato_reservoir.csv                 # Raw dataset
-│   └── potato_reservior_cleaned_dataset.csv        # Cleaned dataset
-├── potato_yield_prediction.ipynb                   # Full ML workflow
-├── requirements.txt
+│   └── potato_reservoir_cleaned_dataset.csv        # Cleaned dataset
+├── potato_yield_prediction.ipynb                   # Full ML + DL workflow (main notebook)
+├── BiLSTM Model.ipynb                              # Extended deep learning notebook (BiLSTM)
+├── requirements.txt                                # Required dependencies
 └── .gitignore
 ```
 
@@ -37,6 +38,8 @@ tih_internship_project/
 ---
 
 ## Models Implemented
+
+Implemented in potato_yield_prediction.ipynb
 
 ### Classical Machine Learning Models
 - RandomForestRegressor (baseline)
