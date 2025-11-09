@@ -67,15 +67,20 @@ Key highlights include:
 ---
 
 ## Evaluation
+
 Models are evaluated using the following regression metrics:
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
 - Coefficient of Determination (R² Score)
 
-Additional evaluation includes:
-- Actual vs Predicted comparisons
-- Residual/error-based visual assessment (where applicable)
+In addition to numerical metrics, model performance was visually validated through:
+- Actual vs Predicted plots, showing how closely the predicted yield follows the true values.
+- Residual distribution plots, to check the uniformity of prediction errors and ensure no major bias.
+- Scatter plots comparing predicted vs actual values, confirming the overall model fit.
+- Sequential time-series plots for LSTM and BiLSTM models, illustrating how effectively deep models captured temporal yield trends.
+
+These visual assessments complemented the statistical metrics and provided stronger interpretability of model behavior and prediction accuracy across different states.
 
 ---
 
